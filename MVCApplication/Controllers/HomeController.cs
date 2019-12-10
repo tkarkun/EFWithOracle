@@ -11,6 +11,7 @@ namespace MVCApplication.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            TempData["TEMP"] = "TEST";
             return View();
         }
     }
